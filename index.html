@@ -138,88 +138,71 @@
         <h1 class="title">Projects</h1>
         <div class="experience-details-container">
           <div class="about-containers">
-            
+      
+            <!-- Project 1: GradMemoir -->
             <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/gradmemoir.png"
-                  alt="GradMemoir Project"
-                  class="project-img"
-                />
-              </div>
               <h2 class="experience-sub-title project-title">GradMemoir</h2>
               <p class="project-description">
                 A platform for graduates to share experiences and insights, combining the best features of Instagram & LinkedIn.
               </p>
+              <button class="btn btn-color-2 project-btn" onclick="toggleCaseStudy('gradmemoir')">View Case Study</button>
+              <div class="case-study" id="gradmemoir">
+                <p><strong>Problem:</strong> Graduates lacked a structured platform to share insights.</p>
+                <p><strong>Approach:</strong> Built a social networking platform using the MERN stack.</p>
+                <p><strong>Tech Stack:</strong> React.js, Node.js, Express, MongoDB, JWT Authentication.</p>
+                <p><strong>Challenges:</strong> Ensuring secure authentication & optimizing API performance.</p>
+                <p><strong>Outcome:</strong> Successfully onboarded over 100 users in the first beta release.</p>
+              </div>
               <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/milaninayak123/gradmemoirrr'"
-                >
-                  Github
-                </button>
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://gradmemoirrr.onrender.com/'"
-                >
-                  Live Demo
-                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/milaninayak123/gradmemoirrr'">Github</button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://gradmemoirrr.onrender.com/'">Live Demo</button>
               </div>
             </div>
       
+            <!-- Project 2: Multi-Threaded Proxy Web Server -->
             <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/webserver.png"
-                  alt="Multi-threaded Web Server"
-                  class="project-img"
-                />
-              </div>
               <h2 class="experience-sub-title project-title">Multi-Threaded Proxy Web Server</h2>
               <p class="project-description">
                 A high-performance proxy web server built in C, implementing LRU caching for optimized response time.
               </p>
+              <button class="btn btn-color-2 project-btn" onclick="toggleCaseStudy('webserver')">View Case Study</button>
+              <div class="case-study" id="webserver">
+                <p><strong>Problem:</strong> Needed an efficient proxy server to manage multiple client requests.</p>
+                <p><strong>Approach:</strong> Developed a multi-threaded server with LRU caching for faster responses.</p>
+                <p><strong>Tech Stack:</strong> C, POSIX threads, LRU Caching.</p>
+                <p><strong>Challenges:</strong> Implementing thread synchronization to avoid race conditions.</p>
+                <p><strong>Outcome:</strong> Improved request handling speed by 50% compared to a single-threaded model.</p>
+              </div>
               <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/milaninayak123/WebServer_C'"
-                >
-                  Github
-                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/milaninayak123/WebServer_C'">Github</button>
               </div>
             </div>
       
+            <!-- Project 3: DevTinder -->
             <div class="details-container color-container">
-              <div class="article-container">
-                <img
-                  src="./assets/devtinder.png"
-                  alt="devtinder"
-                  class="project-img"
-                />
-              </div>
               <h2 class="experience-sub-title project-title">DevTinder</h2>
               <p class="project-description">
                 A Tinder-like platform for developers to match based on skills and interests, fostering collaboration on projects.
               </p>
+              <button class="btn btn-color-2 project-btn" onclick="toggleCaseStudy('devtinder')">View Case Study</button>
+              <div class="case-study" id="devtinder">
+                <p><strong>Problem:</strong> Developers struggle to find like-minded collaborators for projects.</p>
+                <p><strong>Approach:</strong> Created a match-based system using Node.js and MongoDB.</p>
+                <p><strong>Tech Stack:</strong> Node.js, Express, MongoDB, Socket.io, WebSockets.</p>
+                <p><strong>Challenges:</strong> Implementing real-time matching and message synchronization.</p>
+                <p><strong>Outcome:</strong> Users were able to find collaborators efficiently with an intuitive matching system.</p>
+              </div>
               <div class="btn-container">
-                <button
-                  class="btn btn-color-2 project-btn"
-                  onclick="location.href='https://github.com/devtinder'"
-                >
-                  Github
-                </button>
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/devtinder'">Github</button>
               </div>
             </div>
       
           </div>
         </div>
-        <img
-          src="./assets/arrow.png"
-          alt="Arrow icon"
-          class="icon arrow"
-          onclick="location.href='./#contact'"
-        />
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
       </section>
+      
+      
       
 
       <section id="research">
