@@ -429,6 +429,16 @@ article .icon {
   color: #333;
   text-align: center;
 }
+.case-study {
+  display: none; /* Ensures case studies are hidden by default */
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
 
 /* CONTACT */
 
