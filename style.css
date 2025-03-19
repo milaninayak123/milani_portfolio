@@ -257,9 +257,11 @@ section {
 /* BUTTONS */
 
 .btn-container {
+  margin-top: 10px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 15px; /* Adds space between buttons */
   justify-content: center;
-  gap: 1rem;
 }
 
 .btn {
@@ -420,6 +422,12 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+.project-description {
+  margin-bottom: 15px; /* Adds space below project description */
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
 }
 
 /* CONTACT */

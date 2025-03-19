@@ -1,6 +1,8 @@
-function toggleMenu() {
-    const menu = document.querySelector(".menu-links");
-    const icon = document.querySelector(".hamburger-icon");
-    menu.classList.toggle("open");
-    icon.classList.toggle("open");
+function toggleCaseStudy(projectId) {
+  var caseStudy = document.getElementById(projectId);
+  if (caseStudy.style.display === "none" || caseStudy.style.display === "") {
+    caseStudy.style.display = "block";
+  } else {
+    caseStudy.style.display = "none";
   }
+}
