@@ -1,0 +1,4 @@
+note
+use of flex
+nav
+flexbox is the display prop

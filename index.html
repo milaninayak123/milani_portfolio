@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+        <div class="nav-left">
+          
+          <div class="logo">Milani Nayak</div>
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>Fresher <br />Backend Development</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>B.Tech in CSE<br />Kalinga Institute of Industrial Technology<br />| 2021 - 2025 |</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I love backend development and have been working with the MERN stack, constantly exploring new technologies to improve and expand my approach. 
+              One of my key projects, GradMemoir, is like Instagram + LinkedIn for graduates—allowing them to share experiences, insights, and connect with juniors.
+              Beyond development, I have a strong foundation in networking and a keen interest in cybersecurity. My research in Cognitive Wireless Sensor Networks focuses on real-world security applications, published in an IEEE conference.
+              Always learning, always building! 🚀
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Backend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Node.js & Express.js</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>RESTful APIs & Route Handling</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>MongoDB (NoSQL) & Mongoose</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>SQL Databases (PostgreSQL, MySQL)</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Microservices & Monolithic Architecture</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>Authentication (JWT, OAuth)</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>V8 Engine & Libuv (Node.js Internals)</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                  <div>
+                    <h3>WebSockets</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      
+
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/gradmemoir.png"
+                  alt="GradMemoir Project"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">GradMemoir</h2>
+              <p class="project-description">
+                A platform for graduates to share experiences and insights, combining the best features of Instagram & LinkedIn.
+              </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/milaninayak123/gradmemoirrr'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://gradmemoirrr.onrender.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+      
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/webserver.png"
+                  alt="Multi-threaded Web Server"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Multi-Threaded Proxy Web Server</h2>
+              <p class="project-description">
+                A high-performance proxy web server built in C, implementing LRU caching for optimized response time.
+              </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/milaninayak123/WebServer_C'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+      
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/devtinder.png"
+                  alt="devtinder"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">DevTinder</h2>
+              <p class="project-description">
+                A Tinder-like platform for developers to match based on skills and interests, fostering collaboration on projects.
+              </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/devtinder'"
+                >
+                  Github
+                </button>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      
+
+      <section id="research">
+        <p class="section__text__p1">My Research</p>
+        <h1 class="title">Publications & Research</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title">Security in Cognitive Wireless Sensor Networks</h2>
+              <p class="research-description">
+                Presented my paper at <strong>ESIC 2024</strong> and published it in <strong>IEEE Xplore</strong>.  
+                Explored security techniques like <strong>encryption</strong>, <strong>authentication</strong>, and <strong>intrusion detection</strong> in <strong>Cognitive Wireless Sensor Networks (CWSN)</strong>, demonstrating real-world applications that enhance <strong>reliability</strong> and <strong>efficiency</strong>.
+              </p>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://ieeexplore.ieee.org/document/10481561'"
+                >
+                  Read Paper
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-container">
+        <p>Email: <a href="mailto:milaninayak123@gmail.com">milaninayak123@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/milaninayak/">Profile</a></p>
+      </div>
+    </section>
+
+    <footer>
+      
+      <p>© 2024 Milani Nayak | Backend & Beyond.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
